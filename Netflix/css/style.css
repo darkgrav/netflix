@@ -1,0 +1,45 @@
+@import url("components/accordion.css");
+@import url("components/bouttons.css");
+@import url("components/card.css");
+@import url("components/containers.css");
+@import url("components/footer.css");
+@import url("components/mailform.css");
+@import url("components/showcase.css");
+
+/* Default options*/
+
+body {
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+
+ul {
+	list-style: none;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+p{
+	margin: 0.5rem 0;
+	font-size: 39px;
+}
+
+img {
+	width: 100%;
+}
+
+a{
+	text-decoration: none;
+}
+
+.small, small{
+	font-size: 3.5rem;
+}
+
+
+

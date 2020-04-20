@@ -1,0 +1,19 @@
+.btn1 {
+	font-size: 25px;
+    width: 157px;
+    padding: 6px;
+    border-color: #e50914;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.45)
+    margin:0px;
+    background-color: #e50914;
+}
+
+.btn1:hover {
+	background-color: #EA020D;
+	border-color: #e50914;
+}
+
+.btn2 {
+	height: inherit;
+	background-color: #e50914;
+}

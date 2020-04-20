@@ -1,0 +1,118 @@
+.card {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-width: thick;
+    border-style: solid;
+    border-color: #222222;
+    border-radius: 10px;
+    z-index: 2;
+    width: 331px;
+    height: 96px;
+    bottom: 134px;
+    left: 131px;
+}
+
+#cardimg1{
+    width: 57.145px;
+    height:80px;
+}
+
+#cardimg2{
+    width: 57.145px;
+    height:80px;
+}
+
+.cardtext{
+    text-align: left;
+    font-size: 16px;    
+}
+
+.card h2{
+    font-size: 16px;
+}
+
+.card h3{
+    color: #005EC3;
+    font-size: 16px;
+}
+
+
+@media(max-width: 8000px){
+    .cadrevideo1{
+        position: relative;
+        width: 451px;
+        right:225px;
+        bottom: 360px;
+        z-index: 1;
+    }
+
+    .cadrevideo2{
+    position: relative;
+    width: 368px;
+    right: 225px;
+    bottom: 397px;
+    z-index: 1;
+    }
+}
+
+@media(max-width: 6000px){
+    .cadrevideo1{
+        position: relative;
+        width: 451px;
+        right:135px;
+        bottom: 360px;
+        z-index: 1;
+    }
+
+    .cadrevideo2{
+    position: relative;
+    width: 368px;
+    right: 135px;
+    bottom: 397px;
+    z-index: 1;
+    }
+}
+
+
+@media(max-width: 1920px){
+    .cadrevideo1{
+        position: relative;
+        width: 451px;
+        left: 10px;
+        bottom: 360px;
+        z-index: 1;
+    }
+
+    .cadrevideo2{
+    position: relative;
+    width: 368px;
+    left: 0px;
+    bottom: 397px;
+    z-index: 1;
+    }
+}
+
+
+@media(max-width: 1534px){
+    .cadrevideo1{
+        position: relative;
+        width: 451px;
+        bottom:360px;
+        left:0%;
+        z-index: 1;
+    }
+
+    .cadrevideo2{
+        position: relative;
+        width: 368px;
+        bottom :397px;
+        left:0%;
+        z-index: 1;
+    }
+}
+
+
+
